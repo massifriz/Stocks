@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My app List</string>
+    <string name="action_settings">Settings Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="list_link">List Link</string>
+	<string name="page">First page</string>
+	<string name="insert_link">Insert Link</string>
+	<string name="submit">Insert Link</string>
+	<string name="link">Insert Url</string>
+	<string name="url">Insert Description</string>
+</resources>
