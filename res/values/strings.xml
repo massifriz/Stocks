@@ -10,4 +10,6 @@
 	<string name="submit">Insert Link</string>
 	<string name="link">Insert Url</string>
 	<string name="url">Insert Description</string>
+	<string name="stock_link">Azioni</string>
+
 </resources>

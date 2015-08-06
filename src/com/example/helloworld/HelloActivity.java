@@ -28,9 +28,14 @@ public void insertDataLink(View view) {
 Intent objIndent = new Intent(getApplicationContext(), InsertLinkActivity.class);
 startActivity(objIndent);
 }
+public void startListStockActivity(View view) {
+Intent objIndent = new Intent(getApplicationContext(), ListStockActivity.class);
+startActivity(objIndent);
+}
 
 public void openLink(){
 	Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://www.google.it"));
 	startActivity(browserIntent);
 }
+
 }

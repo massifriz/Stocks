@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.lang.String;
  
 import org.apache.http.NameValuePair;
 import org.json.JSONArray;
@@ -67,7 +68,7 @@ try {
 	int success = json.getInt("success");
  
 if (success == 1) {
-//String test = (String) json.get("links");
+
 animals = json.getJSONArray("links");
 for (int i = 0; i < animals.length(); i++) {
 JSONObject c = animals.getJSONObject(i);
@@ -77,8 +78,13 @@ String link = c.getString("url");
 HashMap<String, String> map = new HashMap<String, String>();
 map.put("descr", descr);
 map.put("Link", link);
-animalList.add(map);
+
+
+    animalList.add(map);
+
 }
+
+
 }
 
 
